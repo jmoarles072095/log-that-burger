@@ -18,11 +18,11 @@ router.get("/", function(req, res) {
 
 router.post("/api/burgers", function(req, res) {
     burger.create([
-        "burger_name"
+        "name_of_burger"
     ], [
         req.body.name
     ], function(result) {
-        // Send back the ID of the new quote
+        // Send back the ID of the new burger
         res.json({ id: result.insertId });
     });
 });
@@ -55,5 +55,5 @@ router.delete("/api/burgers/:id", function(req, res) {
     });
 });
 
-// Export routes for server.js to use.
+// Export routes for app.js to use.
 module.exports = router;

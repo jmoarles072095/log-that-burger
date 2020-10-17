@@ -1,19 +1,81 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+html,
+body {
+    background-color: rgb(122, 190, 129) !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important
 }
 
-.label {
-    font-weight: bold;
+.burger {
+    text-align: center;
 }
 
-.create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
+.burgers_r_us {
+    width: 300px;
+    height: auto;
+}
+
+.burger_box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* button to eat burger */
+
+.change-burger {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: rgb(72, 217, 52);
+}
+
+
+/* button to delete burger */
+
+.delete-burger {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: rgb(72, 217, 52);
 }
 
 .form-group {
-    margin-bottom: 5px;
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    background: lightgray
+}
+
+
+/* button to add burger */
+
+.add_button {
+    margin-left: 100px;
+    border-radius: 12px;
+    background-color: rgb(72, 217, 52);
+}
+
+
+/* burgers in list */
+
+li {
+    width: 175px;
+    padding: 5px;
+    margin: 5px;
+    background: lightgray;
+    border-radius: 12px;
+}
+
+
+/* removes dots */
+
+ul {
+    list-style-type: none;
+}
+
+#ca {
+    background-color: rgb(72, 217, 52);
+    border-radius: 12px;
 }
