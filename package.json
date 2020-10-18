@@ -1,9 +1,9 @@
 {
     "name": "log-that-burger",
     "version": "1.0.0",
-    "description": "",
+    "description": "burger app",
     "main": "app.js",
-    "scripts": {
+    "script": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js"
     },
